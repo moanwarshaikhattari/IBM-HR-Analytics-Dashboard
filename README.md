@@ -10,7 +10,7 @@ This Power BI dashboard provides a complete HR Analytics solution for monitoring
 
 ### Admin Dashboard
 
-![Admin Dashboard](Images/Admin_Dashboard.png)
+![Admin Dashboard](Admin_Dashboard.png)
 
 The Admin Dashboard provides an overall view of the organization's workforce.
 
@@ -33,7 +33,7 @@ The Admin Dashboard provides an overall view of the organization's workforce.
 
 ### Manager Dashboard
 
-![Manager Dashboard](Images/Manager_Dashboard.png)
+![Manager Dashboard](Manager_Dashboard.png)
 
 The Manager Dashboard helps managers monitor team performance.
 
@@ -56,7 +56,7 @@ The Manager Dashboard helps managers monitor team performance.
 
 ### Employee Dashboard
 
-![Employee Dashboard](Images/Employee_Dashboard.png)
+![Employee Dashboard](Employee_Dashboard.png)
 
 The Employee Dashboard provides detailed information for individual employees.
 
