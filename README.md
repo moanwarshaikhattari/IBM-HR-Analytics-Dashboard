@@ -2,40 +2,49 @@
 
 ## Project Overview
 
-This Power BI dashboard provides a complete HR Analytics solution for monitoring workforce performance, employee attrition, salary distribution, satisfaction, and department-wise insights. The dashboard helps HR managers and business leaders make data-driven decisions.
+This Power BI dashboard provides a complete HR Analytics solution for monitoring employee performance, attrition, salary, satisfaction, promotions, and workforce insights. It enables HR teams, managers, and executives to make informed, data-driven decisions.
 
 ---
 
-## Dashboards
+## Dashboard Preview
 
-### 1. Admin Dashboard
+### Admin Dashboard
 
-Provides an overall HR summary including:
+![Admin Dashboard](Images/Admin_Dashboard.png)
 
+The Admin Dashboard provides an overall view of the organization's workforce.
+
+**Key Metrics**
 - Total Employees
 - Active Employees
 - Employees Left
 - Attrition Rate
 - Average Job Satisfaction
-- Attrition by Department
-- Attrition by Gender
-- Attrition by Job Role
-- Employee Age Groups
+
+**Visualizations**
+- Attrition Analysis
+- Department-wise Attrition
+- Gender-wise Attrition
+- Job Role Analysis
+- Age Group Distribution
 - Monthly Income by Department
 
 ---
 
-### 2. Manager Dashboard
+### Manager Dashboard
 
-Designed for managers to monitor team performance.
+![Manager Dashboard](Images/Manager_Dashboard.png)
 
-Includes:
+The Manager Dashboard helps managers monitor team performance.
 
+**Key Metrics**
 - Team Size
 - Team Attrition
 - Average Salary
 - Work-Life Balance
 - Job Satisfaction
+
+**Visualizations**
 - Team Members by Job Role
 - Performance Rating
 - Environment Satisfaction
@@ -45,17 +54,20 @@ Includes:
 
 ---
 
-### 3. Employee Dashboard
+### Employee Dashboard
 
-Displays employee-level insights.
+![Employee Dashboard](Images/Employee_Dashboard.png)
 
-Includes:
+The Employee Dashboard provides detailed information for individual employees.
 
+**Key Metrics**
 - Employee Details
 - Department
 - Job Role
 - Monthly Income
 - Experience
+
+**Visualizations**
 - Salary Hike
 - Experience Overview
 - Satisfaction Scores
@@ -67,22 +79,22 @@ Includes:
 
 ## Dataset
 
-HR Analytics Employee Dataset
-
-Contains employee information such as:
+The dashboard uses an HR Analytics dataset containing:
 
 - Employee ID
 - Department
 - Job Role
 - Gender
+- Age
+- Attrition
 - Monthly Income
 - Years at Company
-- Attrition
-- Job Satisfaction
 - Performance Rating
-- Training
-- Promotion
-- Experience
+- Job Satisfaction
+- Environment Satisfaction
+- Work-Life Balance
+- Training Times
+- Promotion History
 
 ---
 
@@ -91,28 +103,28 @@ Contains employee information such as:
 - Power BI
 - Microsoft Excel
 - DAX
+- Power Query
 - Data Modeling
-- Data Visualization
 
 ---
 
 ## Key Insights
 
 - Research & Development has the largest workforce.
-- Attrition is higher in certain departments and job roles.
-- Employees aged 26–35 form the largest group.
-- Satisfaction and work-life balance influence employee retention.
-- Salary and promotion trends help identify workforce patterns.
+- Most employees belong to the 26–35 age group.
+- Attrition varies across departments and job roles.
+- Salary and promotion trends provide valuable workforce insights.
+- Employee satisfaction metrics help identify retention opportunities.
 
 ---
 
 ## Project Features
 
-- Interactive Filters
+- Interactive Slicers
 - KPI Cards
-- Pie Charts
 - Bar Charts
 - Column Charts
+- Pie Charts
 - Donut Charts
 - Gauge Charts
 - Treemap
@@ -122,11 +134,31 @@ Contains employee information such as:
 
 ---
 
+## Folder Structure
+
+```text
+IBM-HR-Analytics-PowerBI-Dashboard
+│
+├── Dashboard
+├── Dataset
+├── Images
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+---
+
 ## Author
 
-Anwar Shaikh
+**Anwar Shaikh**
 
 Aspiring Data Analyst
 
-Skills:
-- Excel | SQL | Power BI | Python | Data Analytics
+### Skills
+
+- Excel
+- SQL
+- Power BI
+- Python
+- Data Analytics
