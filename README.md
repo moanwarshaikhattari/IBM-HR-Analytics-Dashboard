@@ -134,21 +134,6 @@ The dashboard uses an HR Analytics dataset containing:
 
 ---
 
-## Folder Structure
-
-```text
-IBM-HR-Analytics-PowerBI-Dashboard
-│
-├── Dashboard
-├── Dataset
-├── Images
-├── README.md
-├── LICENSE
-└── .gitignore
-```
-
----
-
 ## Author
 
 **Anwar Shaikh**
